@@ -1,0 +1,140 @@
+/*RESET*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.flex-direction{
+    justify-content: flex-end;
+}
+/*HEADER*/
+.top-right-functions{
+    height: 6vh;
+    background-color: red;
+    padding-top: 8px;
+    padding-right: 3px;
+    display: flex;
+}
+
+.btn{
+    background-color: #4a4a4a;
+    text-decoration: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+header .fas{
+    font-size: 1em;
+}
+/*MAIN*/
+.container{
+    background-color: black;
+    margin-bottom: 40px;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.inside-container{
+    margin: 0 auto;
+    width: 90%;
+    background-color: blue;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 5px;
+    justify-content: center;
+}
+
+.image-container{
+    background-color: chartreuse;
+    width: 14%;
+    height: 15vh;
+    position: relative;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+}
+
+.title-container .fas{
+    font-size: 1em;
+}
+
+.image-container .title-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 5px 4px;
+}
+
+.image-container-centered{
+    margin: 0 auto;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+/*FOOTER*/
+.bottom-bar-menù{
+    background-color: #222222;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-button{
+    text-align: center;
+}
+
+#nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+    padding: 15px;
+    color: red;
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+}
+
+.icon-and-text{
+    text-align: center;
+    margin-right: 9px;
+    margin-left: 10px;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+.fa-chevron-up{
+    font-size: 1rem;
+}
