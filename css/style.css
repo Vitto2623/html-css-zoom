@@ -16,7 +16,6 @@ body{
 /*HEADER*/
 .top-right-functions{
     height: 6vh;
-    background-color: red;
     padding-top: 8px;
     padding-right: 3px;
     display: flex;
@@ -44,7 +43,6 @@ header .fas{
 .inside-container{
     margin: 0 auto;
     width: 90%;
-    background-color: blue;
 }
 
 .flex-container{
@@ -69,7 +67,7 @@ header .fas{
 }
 
 .image-container .title-container{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -109,6 +107,7 @@ header .fas{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #nav-right{
